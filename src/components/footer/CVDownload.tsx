@@ -5,7 +5,7 @@ import AnimatedButton from '../common/AnimatedButton';
 const CVDownload = () => {
   const handleDownloadCV = () => {
     // Đường dẫn đến file CV (PDF hoặc file hình ảnh hợp lệ)
-    const cvUrl = '/KhoaNguyenCV.pdf'; // Đặt đường dẫn tĩnh tại public folder
+    const cvUrl = '/Resume.pdf'; // Đặt đường dẫn tĩnh tại public folder
 
     // Kiểm tra file tồn tại và tải xuống
     fetch(cvUrl)
@@ -19,7 +19,7 @@ const CVDownload = () => {
         const link = document.createElement('a');
         const url = window.URL.createObjectURL(blob);
         link.href = url;
-        link.download = 'KhoaNguyenCV.pdf';
+        link.download = 'KhoaNguyenDangCV.pdf';
         document.body.appendChild(link);
         link.click();
         link.remove();
