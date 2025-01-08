@@ -10,6 +10,7 @@ import ProjectChallenges from '../components/projects/ProjectChallenges';
 import ProjectGallery from '../components/projects/ProjectGallery';
 import ProjectAnimations from '../components/projects/ProjectAnimations';
 import ProjectLearnings from '../components/projects/ProjectLearnings';
+import ScrollToTopButton from '../components/common/ScrollToTopButton';
 
 const ProjectDetail = () => {
   const { id } = useParams();
@@ -56,6 +57,7 @@ const ProjectDetail = () => {
         
         <ProjectLearnings project={project} />
       </div>
+      <ScrollToTopButton />
     </div>
   );
 };
