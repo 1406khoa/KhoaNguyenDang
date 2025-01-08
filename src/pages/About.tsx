@@ -41,7 +41,7 @@ const About = () => {
                   <p className="text-gray-500 mt-1">2021 - Present</p>
                   <div className="mt-2 flex items-center">
                     <span className="text-gray-700 font-medium">GPA:</span>
-                    <span className="ml-2 text-gray-800 font-bold">3.2/4.0</span>
+                    <span className="ml-2 text-gray-800 font-bold">3.09/4.0</span>
                   </div>
                 </div>
               </div>
