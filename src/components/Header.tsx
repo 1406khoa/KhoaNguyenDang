@@ -4,6 +4,7 @@ import { Github, Linkedin } from 'lucide-react';
 import Navigation from './Navigation';
 import ScrollArrow from './ScrollArrow';
 import TypeWriter from './common/TypeWriter';
+import CodeSnippet from './common/CodeSnippet';
 
 const Header = () => {
   useEffect(() => {
@@ -77,18 +78,9 @@ const Header = () => {
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
-            className="h-screen"
+            className="flex items-center justify-center h-full"
           >
-            <div className="relative h-full">
-              <div className="relative h-full">
-                <img
-                  src="https://images.unsplash.com/photo-1537511446984-935f663eb1f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                  alt="Profile"
-                  className="w-full h-full object-cover"
-                />
-                <div className="absolute inset-0 bg-gradient-to-l from-black/30 to-transparent" />
-              </div>
-            </div>
+            <CodeSnippet />
           </motion.div>
         </div>
       </div>

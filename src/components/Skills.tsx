@@ -6,7 +6,7 @@ const Skills = () => {
     {
       title: "Frontend Development",
       skills: [
-        'HTML, CSS, JavaScript',
+        'HTML, CSS, JavaScript, TypeScript',
         'ReactJS, Tailwind CSS (Responsive Design, Custom Themes)',
         'Basic Animations with Framer Motion'
       ]

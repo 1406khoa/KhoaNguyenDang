@@ -47,6 +47,14 @@ const CertificateCard = ({ certificate }) => {
 const Certificates = () => {
   const certificates = [
     {
+      title: "Aptis English Certificate",
+      issuer: "British Council",
+      date: "September 2022",
+      description: "Achieved a B2 level in English proficiency through the Aptis test, a globally recognized assessment by the British Council for evaluating practical communication skills.",
+      url: "https://drive.google.com/file/d/17kmk5vnwg2hCOfn34_4L89oO1LToRNFx/view?usp=sharing"
+    },
+
+    {
       title: "Critical Thinking",
       issuer: "Youth Cultural Center of Ho Chi Minh City",
       date: "October 2024",
@@ -63,9 +71,17 @@ const Certificates = () => {
     {
       title: "The Complete React Native + Hooks Course",
       issuer: "Udemy",
-      date: "October 2023",
+      date: "January 2025",
       description: "Learn how to build mobile applications using React Native, a popular JavaScript framework for building native mobile applications.",
       url: "https://drive.google.com/file/d/1kwBY7iv7MFYSvoMdv5KzsEcKCHMwtqjC/view?usp=drive_link"
+    },
+
+    {
+      title: "Web Fullstack Development (Web23S)",
+      issuer: "ITSS Training Center",
+      date: "March 2023",
+      description: "Learned and practiced the basics of web technologies such as HTML, CSS, JavaScript, as well as frameworks like Angular and NgRx.",
+      url: "https://drive.google.com/file/d/1mt8ve8lj21WbHJUC_FSBlZvEvUIhbG02/view?usp=drive_link"
     }
   ];
 
