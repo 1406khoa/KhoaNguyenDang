@@ -9,7 +9,7 @@ const Navigation = () => {
     // Điều kiện đặc biệt cho Resume
     if (sectionId === 'resume') {
       window.open(
-        "https://drive.google.com/file/d/1hnsRfJep2GneLtmCPYvnWuKf5e6d7lxD/view?usp=sharing",
+        "https://drive.google.com/file/d/1yaM3yrpWxK--HAKEfFg5zNpgcrM6Z6lv/view?usp=sharing",
         "_blank"
       );
       return;
