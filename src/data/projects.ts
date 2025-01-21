@@ -190,7 +190,7 @@ export const projects: Project[] = [
   },
   {
     id: 'humanbenchmark-clones',
-    title: "Human Benchmark Clones",
+    title: "Human Benchmark",
     description: "A cognitive testing application built with React that helps users measure and improve their cognitive abilities through various interactive games and challenges.",
     image: HumanBenchmarkImage,
     demoUrl: "https://humanbenchmark-clone-three.vercel.app/",
