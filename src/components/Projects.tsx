@@ -129,7 +129,7 @@ const Projects = () => {
     },
     {
       id: 'humanbenchmark-clones',
-      title: "HUMAN BENCHMARK CLONES",
+      title: "HUMAN BENCHMARK",
       description: "A cognitive testing application built with React that helps users measure and improve their cognitive abilities through various interactive games and challenges.",
       image: HumanBenchmarkImage
 
